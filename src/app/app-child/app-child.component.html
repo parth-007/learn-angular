@@ -1,0 +1,8 @@
+<p>app-child works!</p>
+
+<p class={{cssClass}}>Today's item is: {{item}}</p>
+
+<!-- It is not necessary to have discountRate everyday.
+So we want to make it optional for the parent to send it to the child
+If this is passed only then the below <p> will be printed -->
+<p class="background-shade" *ngIf="discountRate">Today's Discount rate: {{discountRate}}% </p>

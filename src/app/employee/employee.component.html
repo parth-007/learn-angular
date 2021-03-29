@@ -1,0 +1,23 @@
+<p>employee works!</p>
+
+<b>ID:</b> {{id}}
+<b>Name:</b> {{name}}
+<label *ngIf="age"><b>Age:</b> {{age}} </label>
+<b>Blood-group:</b> {{bGroup}}
+<b>Designation:</b> {{designation}}
+<label *ngIf="salary"><b>Salary:</b> {{salary | currency}} </label>
+<!-- 
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Blood Group</th>
+        <th>Age</th>
+    </tr>
+    <tr *ngFor="let emp of data">
+        <td>{{emp.id}}</td>
+        <td>{{emp.name}}</td>
+        <td></td>
+        <td></td>
+    </tr>
+</table> -->
